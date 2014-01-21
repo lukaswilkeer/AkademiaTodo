@@ -3,10 +3,7 @@ function TodoCtrl($scope){
         {text:'Planejar o próximo estudo da kolaborativa.', done:true},
         {text:'Organizar o Akademia php.', done:false}];
 
-    $scope.addTodo = function (){
-        $scope.todos.push({text:$scope.todoText,done:false});
-        $scope.todoText='';
-    };
+    $scope.addTodo = function (){};
     $scope.remaining= function (){};
     $scope.archive = function (){};
 
