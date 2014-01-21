@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app>
+    <head>
+        <script src="./bower_components/angular/angular.min.js"></script>
+        <script src="./js/todo.js"></script>
+    </head>
+    <body>
+        <h2>Todo list</h2>
+        <div ng-controller="TodoCtrl">
+            <span>{{ remaing() }} tarefas completas de {{todos.lenght}}.</span>
+            <ul class="unstyled">
+                <li ng-repeat="todo in todos">
+                    <input type="checkbox" ng-model="todo.done">
+                    <span class="done-{{todo.done}}">{{todo.text}}</span>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

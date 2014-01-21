@@ -1,0 +1,9 @@
+{
+  "name": "todolist",
+  "version": "0.0.0",
+  "authors": [
+    "Lukas Wilkeer <lukasc4l@gmail.com>"
+  ],
+  "description": "A simple todo list usgin Angular for Akademia JS.",
+  "license": "MIT"
+}
