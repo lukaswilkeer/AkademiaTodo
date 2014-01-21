@@ -7,7 +7,7 @@
     <body>
         <h2>Todo list</h2>
         <div ng-controller="TodoCtrl">
-            <span>{{ remaing() }} tarefas completas de {{todos.lenght}}.</span>
+            <span>{{remaining()}} tarefas completas de  {{todos.length}}.</span>
             <ul class="unstyled">
                 <li ng-repeat="todo in todos">
                     <input type="checkbox" ng-model="todo.done">
